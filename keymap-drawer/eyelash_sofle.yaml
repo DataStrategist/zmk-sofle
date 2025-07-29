@@ -68,107 +68,137 @@ layers:
   layout:
   zmk_keyboard: eyelash_sofle
 layers:
-  layer1:
-    - '`'
-    - PG UP
-    - ↑
-    - PG DN
-    - HOME
-    - END
-    - Q
-    - ←
-    - ↓
-    - →
-    - '@'
-    - '"'
-    - CAPS
-    - (
-    - )
-    - '{'
-    - '}'
-    - _
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - NUM
-    - '7'
-    - '8'
-    - '9'
-    - /
-    - '*'
-    - '-'
-    - '4'
-    - '5'
-    - '6'
-    - +
-    - '['
-    - ']'
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - .
-    - '='
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-    - ''
-  layer2:
-    - '~'
-    - BT 0
-    - BT 1
-    - BT 2
-    - BT 3
-    - BT 4
-    - BT CLR
-    - BT CLR ALL
-    - ''
-    - ''
-    - MB4
-    - ↓
-    - USB
-    - BLE
-    - LCLK
-    - RCLK
-    - MB5
-    - ←
-    - RESET
-    - RGB OFF
-    - RGB ON
-    - RGB EFF
-    - RGB EFR
-    - →
-    - F6
-    - F7
-    - F8
-    - F9
-    - F10
-    - ''
-    - PGUP
-    - END
-    - ↑
-    - HOME
-    - ''
-    - ''
-    - PGDN
-    - ←
-    - ↓
-    - →
-    - ''
-    - ''
-    - RGB BR+
-    - RGB BR-
-    - RESET
-    - SLEEP
-    - BOOT
-    - ''
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
+   VIM+MACROS+NUM:
+    - '&kp ESC'
+    - '&kp PG_UP'
+    - '&kp UP'
+    - '&kp PG_DN'
+    - '&kp HOME'
+    - '&kp END'
+    - '&kp Q'
+    - '&kp LEFT'
+    - '&kp DOWN'
+    - '&kp RIGHT'
+    - '&kp AT'
+    - '&kp DQT'
+    - '&kp CAPS'
+    - '&kp LEFT_PAREN'
+    - '&kp RIGHT_PAREN'
+    - '&kp LEFT_BRACE'
+    - '&kp RIGHT_BRACE'
+    - '&kp UNDERSCORE'
+    - '&kp NUM_LOCK'
+    - '&kp KP_7'
+    - '&kp KP_8'
+    - '&kp KP_9'
+    - '&kp KP_SLASH'
+    - '&kp KP_ASTERISK'
+    - '&kp KP_MINUS'
+    - '&kp KP_4'
+    - '&kp KP_5'
+    - '&kp KP_6'
+    - '&kp KP_PLUS'
+    - '&kp LEFT_BRACKET'
+    - '&kp RIGHT_BRACKET'
+    - '&kp KP_0'
+    - '&kp KP_1'
+    - '&kp KP_2'
+    - '&kp KP_3'
+    - '&kp KP_DOT'
+    - '&kp KP_EQUAL'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+
+  SYS+RGB:
+    - '&kp TILDE'
+    - '&bt BT_SEL 0'
+    - '&bt BT_SEL 1'
+    - '&bt BT_SEL 2'
+    - '&bt BT_SEL 3'
+    - '&bt BT_SEL 4'
+    - '&bt BT_CLR'
+    - '&bt BT_CLR_ALL'
+    - '&mkp MB4'
+    - '&mmv MOVE_DOWN'
+    - '&out OUT_USB'
+    - '&out OUT_BLE'
+    - '&mkp LCLK'
+    - '&mkp RCLK'
+    - '&mkp MB5'
+    - '&mmv MOVE_LEFT'
+    - '&kp PG_DN'
+    - '&kp LEFT'
+    - '&kp DOWN'
+    - '&kp RIGHT'
+    - '&rgb_ug RGB_OFF'
+    - '&rgb_ug RGB_ON'
+    - '&rgb_ug RGB_EFF'
+    - '&rgb_ug RGB_EFR'
+    - '&rgb_ug RGB_SPI'
+    - '&mmv MOVE_RIGHT'
+    - '&rgb_ug RGB_BRI'
+    - '&rgb_ug RGB_BRD'
+    - '&sys_reset'
+    - '&sys_power'
+    - '&bootloader'
+    - '&kp PG_UP'
+    - '&kp END'
+    - '&kp UP'
+    - '&kp HOME'
+    - '&kp F6'
+    - '&kp F7'
+    - '&kp F8'
+    - '&kp F9'
+    - '&kp F10'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
+    - '&trans'
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
