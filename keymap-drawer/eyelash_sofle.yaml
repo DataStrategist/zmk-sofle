@@ -73,37 +73,37 @@ layers:
   - HOME
   - END
   - NUM LOCK
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP SLASH
-  - KP STAR
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: /, s: '?'}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Q
+  - $$mdi:keyboard-tab$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '@'
-  - '"'
-  - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
-  - +
+  - Q
+  - W
+  - {t: '-', s: _}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - E
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-caps$$
-  - (
-  - )
-  - '{'
-  - '}'
-  - _
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - KP EQUAL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: '0', s: )}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - H
+  - J
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
