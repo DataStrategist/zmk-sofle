@@ -77,7 +77,7 @@ layers:
   - KP 8
   - KP 9
   - {t: /, s: '?'}
-  - KP STAR
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
