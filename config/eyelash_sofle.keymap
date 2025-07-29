@@ -55,16 +55,15 @@
 
         
         layer_1 {
-  bindings = <
-&kp ESC       &kp PG_UP     &kp UP         &kp PG_DN     &kp HOME        &kp END        &kp NUM_LOCK  &kp KP_7     &kp KP_8     &kp KP_9     &kp KP_SLASH    &kp KP_ASTERISK  &trans
+            bindings = <
+&kp ESC       &kp PG_UP     &kp UP          &kp PG_DN     &kp HOME         &kp END         &kp NUM_LOCK  &kp KP_7     &kp KP_8     &kp KP_9     &kp KP_SLASH    &kp KP_ASTERISK  &trans
 &kp Q         &kp LEFT      &kp DOWN        &kp RIGHT     &kp AT_SIGN      &kp DQT         &kp KP_MINUS  &kp KP_4     &kp KP_5     &kp KP_6     &kp PLUS        &kp LBKT         &kp RBKT
 &kp CAPS      &kp LPAR      &kp RPAR        &kp LBRC      &kp RBRC         &kp UNDERSCORE  &kp KP_0      &kp KP_1     &kp KP_2     &kp KP_3     &kp KP_DOT      &kp KP_EQUAL    &trans
 &trans        &trans        &trans          &trans        &trans           &trans          &trans        &trans       &trans       &trans       &trans          &trans          &trans
 &trans        &trans        &trans          &trans        &trans           &trans          &trans        &trans       &trans       &trans       &trans          &trans          &trans
-  >;
-  display-name = "VIM+MACROS+NUM";
-  sensor-bindings = <&scroll_encoder>;
-};
+            >;
+            display-name = "LAYER1";
+        };
 
 
 
