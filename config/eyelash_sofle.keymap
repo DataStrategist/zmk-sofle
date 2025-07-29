@@ -55,7 +55,7 @@
 
         layer1 {
             bindings = <
-&kp ESC       &kp PG_UP     &kp UP          &kp PG_DN     &kp HOME         &kp END         &kp NUM_LOCK  &kp N7        &kp N8        &kp N9        &kp FSLH        &kp STAR      &trans
+&kp ESC       &kp PG_UP     &kp UP          &kp PG_DN     &kp HOME         &kp END         &kp NUM_LOCK  &kp N7        &kp N8        &kp N9        &kp FSLH        &kp ASTERISK  &trans
 &kp Q         &kp LEFT      &kp DOWN        &kp RIGHT     &kp AT           &kp SQT         &kp MINUS     &kp N4        &kp N5        &kp N6        &kp PLUS        &kp LBKT      &kp RBKT
 &kp CAPS      &kp LPAR      &kp RPAR        &kp LBRC      &kp RBRC         &kp UNDERSCORE  &kp N0        &kp N1        &kp N2        &kp N3        &kp DOT         &kp EQUAL     &trans
 &trans        &trans        &trans          &trans        &trans           &trans          &trans        &trans        &trans        &trans        &trans          &trans        &trans
