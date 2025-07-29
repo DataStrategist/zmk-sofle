@@ -67,17 +67,17 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - PG UP
+  - $$mdi:arrow-up-bold$$
+  - PG DN
+  - HOME
+  - END
+  - '&mmv NUM_LOCK'
+  - KP 7
+  - KP 8
+  - KP 9
+  - {t: /, s: '?'}
+  - KP STAR
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
