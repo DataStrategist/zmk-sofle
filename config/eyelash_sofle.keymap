@@ -60,7 +60,7 @@
 &kp Q         &kp LEFT      &kp DOWN        &kp RIGHT     &kp AT_SIGN      &kp DQT         &kp KP_MINUS  &kp KP_4     &kp KP_5     &kp KP_6     &kp PLUS        &kp LBKT         &kp RBKT
 &kp CAPS      &kp LPAR      &kp RPAR        &kp LBRC      &kp RBRC         &kp UNDERSCORE  &kp KP_0      &kp KP_1     &kp KP_2     &kp KP_3     &kp KP_DOT      &kp KP_EQUAL    &trans
 &trans        &trans        &trans          &trans        &trans           &trans          &trans        &trans       &trans       &trans       &trans          &trans          &trans
-&trans        &trans        &trans          &trans        &trans           &trans          &trans        &trans       &trans       &trans       &trans          &trans          &trans
+&trans        &trans        &trans          &trans        &trans           &trans          &trans        &trans       &trans       &trans       &trans          &trans
             >;
             display-name = "LAYER1";
         };
