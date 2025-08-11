@@ -3,13 +3,13 @@ layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
   - BT CLR ALL
-  - {t: '2', s: '@'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
+  - BT CLR ALL
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
