@@ -4,13 +4,13 @@ layers:
   - $$mdi:keyboard-esc$$
   - BT CLR ALL
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '3', s: '#'}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
   - BT CLR ALL
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '8', s: '*'}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
