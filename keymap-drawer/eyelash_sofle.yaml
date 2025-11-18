@@ -56,14 +56,14 @@ layers:
   - PAUSE
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - '2'
-  - layer1
+  - {t: '$$mdi:keyboard-esc$$', h: '2'}
+  - {t: '$$mdi:keyboard-tab$$', h: layer1}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - RETURN
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - '~'
@@ -183,7 +183,7 @@ layers:
   - '&soft_off'
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&new_macro'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
