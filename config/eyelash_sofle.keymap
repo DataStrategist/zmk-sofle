@@ -103,7 +103,7 @@
 &trans      &kp LS(LBRC)          &kp LEFT                  &kp LEFT_BRACE                  &kp RIGHT_BRACE                      &kp PAGE_UP      &trans  &kp STAR       &kp N7                      &kp N8            &kp N9                  &kp EQUAL              &trans
 &trans      &hml LEFT_SHIFT HOME  &hml LEFT_WIN LEFT_ARROW  &hml LEFT_ALT LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp PAGE_DOWN    &trans  &kp MINUS      &hml LEFT_CONTROL NUMBER_4  &hml LEFT_ALT N5  &hml LEFT_WIN NUMBER_6  &hml RIGHT_SHIFT PLUS  &trans
 &bl BL_ON   &bl BL_OFF            &trans                    &kp LEFT_BRACKET                &kp RIGHT_BRACKET                    &trans           &trans  &kp N0         &kp NUMBER_1                &kp NUMBER_2      &kp NUMBER_3            &kp MINUS              &trans
-&kp C_MUTE  &trans                &trans                    &trans                          &trans                               &trans           &trans  &kp BACKSPACE  &kp DELETE                  &kp N0            &kp STAR                &trans
+&kp C_MUTE  &trans                &trans                    &trans                          &trans                               &trans           &trans  &kp BACKSPACE  &kp DELETE                  &kp N0            &kp STAR                &kp PERIOD
             >;
 
             display-name = "layer1";
