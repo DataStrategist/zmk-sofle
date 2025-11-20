@@ -86,11 +86,11 @@
 
         layer0 {
             bindings = <
-&kp ESC      &kp N1         &kp N2           &kp N3           &kp N4               &kp N5           &kp UP_ARROW     &kp N6      &kp N7                &kp N8           &kp N9            &kp N0                 &kp BACKSPACE
-&kp TAB      &kp Q          &kp W            &kp E            &kp R                &kp T            &kp DOWN_ARROW   &kp Y       &kp U                 &kp I            &kp O             &kp P                  &kp BSLH
-&kp ESC      &hml LSHIFT A  &hml LEFT_WIN S  &hml LEFT_ALT D  &hml LEFT_CONTROL F  &kp G            &kp LEFT_ARROW   &kp H       &hmr RIGHT_CONTROL J  &hmr LEFT_ALT K  &hmr RIGHT_WIN L  &hmr RIGHT_SHIFT SEMI  &kp SINGLE_QUOTE
-&kp LSHFT    &kp Z          &kp X            &kp C            &kp V                &kp B            &kp RIGHT_ARROW  &kp N       &kp M                 &kp COMMA        &kp DOT           &kp FSLH               &kp MINUS
-&kp C_PAUSE  &kp LCTRL      &kp LEFT_GUI     &lt 2 ESCAPE     &lt 1 TAB            &kp BACKSPACE    &kp SPACE        &kp RETURN  &kp SPACE             &kp TAB          &kp ESC           &kp DELETE
+&kp ESC         &kp N1         &kp N2           &kp N3           &kp N4               &kp N5           &kp UP_ARROW     &kp N6      &kp N7                &kp N8           &kp N9            &kp N0                 &kp BACKSPACE
+&kp TAB         &kp Q          &kp W            &kp E            &kp R                &kp T            &kp DOWN_ARROW   &kp Y       &kp U                 &kp I            &kp O             &kp P                  &kp BSLH
+&kp LEFT_SHIFT  &hml LSHIFT A  &hml LEFT_WIN S  &hml LEFT_ALT D  &hml LEFT_CONTROL F  &kp G            &kp LEFT_ARROW   &kp H       &hmr RIGHT_CONTROL J  &hmr LEFT_ALT K  &hmr RIGHT_WIN L  &hmr RIGHT_SHIFT SEMI  &kp SINGLE_QUOTE
+&kp LSHFT       &kp Z          &kp X            &kp C            &kp V                &kp B            &kp RIGHT_ARROW  &kp N       &kp M                 &kp COMMA        &kp DOT           &kp FSLH               &kp MINUS
+&kp C_PAUSE     &kp LCTRL      &kp LEFT_GUI     &lt 2 ESCAPE     &lt 1 TAB            &kp BACKSPACE    &kp SPACE        &kp RETURN  &kp SPACE             &kp TAB          &kp ESC           &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -99,11 +99,11 @@
 
         layer_1 {
             bindings = <
-&kp TILDE   &kp F1                &kp F2                    &kp F3                    &kp F4                   &kp F5     &kp UP  &kp N7         &kp N8                      &kp N9            &kp SLASH               &kp BSPC               &kp DEL
-&trans      &kp LS(LBRC)          &kp LEFT                  &kp UP                    &kp RIGHT                &kp DEL    &trans  &kp PAGE_UP    &kp N7                      &kp N8            &kp N9                  &kp EQUAL              &trans
-&trans      &hml LEFT_SHIFT HOME  &hml LEFT_WIN LEFT_ARROW  &hml LEFT_ALT DOWN_ARROW  &hml LEFT_CONTROL RIGHT  &kp END    &trans  &kp PAGE_DOWN  &hml LEFT_CONTROL NUMBER_4  &hml LEFT_ALT N5  &hml LEFT_WIN NUMBER_6  &hml RIGHT_SHIFT PLUS  &trans
-&bl BL_ON   &bl BL_OFF            &trans                    &trans                    &trans                   &trans     &trans  &kp N0         &kp NUMBER_1                &kp NUMBER_2      &kp NUMBER_3            &kp MINUS              &trans
-&kp C_MUTE  &trans                &trans                    &trans                    &trans                   &trans     &trans  &kp BACKSPACE  &kp DELETE                  &kp N0            &kp STAR                &trans
+&kp TILDE   &kp F1                &kp F2                    &kp F3                          &kp F4                               &kp F5           &kp UP  &kp N7         &kp N8                      &kp N9            &kp SLASH               &kp BSPC               &kp DEL
+&trans      &kp LS(LBRC)          &kp LEFT                  &kp LEFT_BRACE                  &kp RIGHT_BRACE                      &kp PAGE_UP      &trans  &kp STAR       &kp N7                      &kp N8            &kp N9                  &kp EQUAL              &trans
+&trans      &hml LEFT_SHIFT HOME  &hml LEFT_WIN LEFT_ARROW  &hml LEFT_ALT LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp PAGE_DOWN    &trans  &kp MINUS      &hml LEFT_CONTROL NUMBER_4  &hml LEFT_ALT N5  &hml LEFT_WIN NUMBER_6  &hml RIGHT_SHIFT PLUS  &trans
+&bl BL_ON   &bl BL_OFF            &trans                    &kp LEFT_BRACKET                &kp RIGHT_BRACKET                    &trans           &trans  &kp N0         &kp NUMBER_1                &kp NUMBER_2      &kp NUMBER_3            &kp MINUS              &trans
+&kp C_MUTE  &trans                &trans                    &trans                          &trans                               &trans           &trans  &kp BACKSPACE  &kp DELETE                  &kp N0            &kp STAR                &trans
             >;
 
             display-name = "layer1";
