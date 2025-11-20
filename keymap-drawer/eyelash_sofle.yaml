@@ -129,7 +129,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '0', s: )}
   - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - .
   '2':
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
