@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: LEFT WIN}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
@@ -82,11 +82,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+{
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - PgUp
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -95,11 +95,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:arrow-left-bold$$', h: LEFT WIN}
-  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
-  - END
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: (, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ), h: '$$mdi:apple-keyboard-control$$'}
   - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-option$$', s: '%'}
   - {t: '6', h: LEFT WIN}
@@ -108,8 +108,8 @@ layers:
   - '&bl BL_ON'
   - '&bl BL_OFF'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
