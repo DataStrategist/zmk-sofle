@@ -20,3 +20,6 @@
 
 <img src="keymap-drawer/sofle.svg" >
 
+## Tags
+`zmk` `keyboard` `firmware` `hardware` `sofle`
+
