@@ -99,11 +99,11 @@
 
         layer_1 {
             bindings = <
-&kp TILDE   &kp F1                &kp F2                    &kp F3                          &kp F4                               &kp F5           &kp UP  &kp N7         &kp N8                      &kp N9            &kp SLASH               &kp BSPC               &kp DEL
-&trans      &kp LS(LBRC)          &kp LEFT                  &kp LEFT_BRACE                  &kp RIGHT_BRACE                      &kp PAGE_UP      &trans  &kp STAR       &kp N7                      &kp N8            &kp N9                  &kp EQUAL              &trans
-&trans      &hml LEFT_SHIFT HOME  &hml LEFT_WIN LEFT_ARROW  &hml LEFT_ALT LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp PAGE_DOWN    &trans  &kp MINUS      &hml LEFT_CONTROL NUMBER_4  &hml LEFT_ALT N5  &hml LEFT_WIN NUMBER_6  &hml RIGHT_SHIFT PLUS  &trans
-&bl BL_ON   &bl BL_OFF            &trans                    &kp LEFT_BRACKET                &kp RIGHT_BRACKET                    &trans           &trans  &kp N0         &kp NUMBER_1                &kp NUMBER_2      &kp NUMBER_3            &kp MINUS              &trans
-&kp C_MUTE  &trans                &trans                    &trans                          &trans                               &trans           &trans  &kp BACKSPACE  &kp DELETE                  &kp N0            &kp STAR                &kp PERIOD
+&kp TILDE   &kp F1                &kp F2                    &kp F3                          &kp F4                               &kp F5           &mmv MOVE_UP     &kp F6    &kp F7          &kp F8           &kp F9     &kp F10      &trans
+&trans      &kp LS(LBRC)          &kp LEFT                  &kp LEFT_BRACE                  &kp RIGHT_BRACE                      &kp PAGE_UP      &mmv MOVE_DOWN   &trans    &trans          &kp F11          &kp F12    &kp UNDER    &kp PLUS
+&trans      &hml LEFT_SHIFT HOME  &hml LEFT_WIN LEFT_ARROW  &hml LEFT_ALT LEFT_PARENTHESIS  &hml LEFT_CONTROL RIGHT_PARENTHESIS  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp LEFT  &kp DOWN        &kp UP_ARROW     &kp RIGHT  &kp LBRC     &kp RBRC
+&bl BL_ON   &bl BL_OFF            &trans                    &kp LEFT_BRACKET                &kp RIGHT_BRACKET                    &trans           &mmv MOVE_RIGHT  &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &soft_off  &bootloader  &trans
+&kp C_MUTE  &trans                &trans                    &trans                          &trans                               &trans           &mkp LCLK        &trans    &trans          &trans           &trans     &trans
             >;
 
             display-name = "layer1";
@@ -112,11 +112,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6    &kp F7          &kp F8           &kp F9     &kp F10      &trans
-&trans      &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans    &trans          &kp F11          &kp F12    &kp UNDER    &kp PLUS
-&trans      &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LEFT  &kp DOWN        &kp UP_ARROW     &kp RIGHT  &kp LBRC     &kp RBRC
-&trans      &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &soft_off  &bootloader  &trans
-&new_macro  &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans    &trans          &trans           &trans     &trans
+&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp UP  &kp N7         &kp N8                      &kp N9            &kp SLASH               &kp BSPC               &kp DEL
+&trans      &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &trans  &kp STAR       &kp N7                      &kp N8            &kp N9                  &kp EQUAL              &trans
+&trans      &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &trans  &kp MINUS      &hml LEFT_CONTROL NUMBER_4  &hml LEFT_ALT N5  &hml LEFT_WIN NUMBER_6  &hml RIGHT_SHIFT PLUS  &trans
+&trans      &sys_reset    &trans          &bootloader   &trans        &trans          &trans  &kp N0         &kp NUMBER_1                &kp NUMBER_2      &kp NUMBER_3            &kp MINUS              &trans
+&new_macro  &trans        &trans          &trans        &trans        &trans          &trans  &kp BACKSPACE  &kp DELETE                  &kp N0            &kp STAR                &kp PERIOD
             >;
 
             sensor-bindings = <&scroll_encoder>;
